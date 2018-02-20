@@ -14,6 +14,9 @@
 		4C8EC724203CC9B0003E0358 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8EC722203CC9B0003E0358 /* LaunchScreen.storyboard */; };
 		4C8EC72F203CC9B0003E0358 /* cardio_spikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8EC72E203CC9B0003E0358 /* cardio_spikeTests.swift */; };
 		4C8EC73A203CC9B0003E0358 /* cardio_spikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8EC739203CC9B0003E0358 /* cardio_spikeUITests.swift */; };
+		4DAECC7C2A35D29FA7965220 /* Pods_cardio_spikeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 720B0C502295DC4CC5C3C756 /* Pods_cardio_spikeTests.framework */; };
+		9D2B04961CC4195554A3D857 /* Pods_cardio_spikeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58327D08826C6E7A90900A60 /* Pods_cardio_spikeUITests.framework */; };
+		CF0DE977AFF1B40267F912A3 /* Pods_cardio_spike.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B193BB60A8D1B902433D9F2E /* Pods_cardio_spike.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D4B99FA25F9B27F545F2310 /* Pods-cardio-spike.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cardio-spike.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cardio-spike/Pods-cardio-spike.debug.xcconfig"; sourceTree = "<group>"; };
 		4C8EC716203CC9B0003E0358 /* cardio-spike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cardio-spike.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C8EC719203CC9B0003E0358 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C8EC71B203CC9B0003E0358 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,15 @@
 		4C8EC735203CC9B0003E0358 /* cardio-spikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cardio-spikeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C8EC739203CC9B0003E0358 /* cardio_spikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardio_spikeUITests.swift; sourceTree = "<group>"; };
 		4C8EC73B203CC9B0003E0358 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C8EC747203CCC05003E0358 /* SampleApp-Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleApp-Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		58327D08826C6E7A90900A60 /* Pods_cardio_spikeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cardio_spikeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BFBC34305CB9629D13FB507 /* Pods-cardio-spikeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cardio-spikeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-cardio-spikeUITests/Pods-cardio-spikeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		671471CFA3CF67228BE6E512 /* Pods-cardio-spikeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cardio-spikeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-cardio-spikeTests/Pods-cardio-spikeTests.release.xcconfig"; sourceTree = "<group>"; };
+		720B0C502295DC4CC5C3C756 /* Pods_cardio_spikeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cardio_spikeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F96AFCB2C1C72454A62CE74 /* Pods-cardio-spikeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cardio-spikeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cardio-spikeTests/Pods-cardio-spikeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE437A70D482CC7566849031 /* Pods-cardio-spike.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cardio-spike.release.xcconfig"; path = "Pods/Target Support Files/Pods-cardio-spike/Pods-cardio-spike.release.xcconfig"; sourceTree = "<group>"; };
+		B193BB60A8D1B902433D9F2E /* Pods_cardio_spike.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cardio_spike.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5C5990DA42E79189CCC281 /* Pods-cardio-spikeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cardio-spikeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cardio-spikeUITests/Pods-cardio-spikeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF0DE977AFF1B40267F912A3 /* Pods_cardio_spike.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DAECC7C2A35D29FA7965220 /* Pods_cardio_spikeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +83,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D2B04961CC4195554A3D857 /* Pods_cardio_spikeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D6C21053555D45575A46A4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D4B99FA25F9B27F545F2310 /* Pods-cardio-spike.debug.xcconfig */,
+				AE437A70D482CC7566849031 /* Pods-cardio-spike.release.xcconfig */,
+				9F96AFCB2C1C72454A62CE74 /* Pods-cardio-spikeTests.debug.xcconfig */,
+				671471CFA3CF67228BE6E512 /* Pods-cardio-spikeTests.release.xcconfig */,
+				BD5C5990DA42E79189CCC281 /* Pods-cardio-spikeUITests.debug.xcconfig */,
+				5BFBC34305CB9629D13FB507 /* Pods-cardio-spikeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4C8EC70D203CC9B0003E0358 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +110,8 @@
 				4C8EC72D203CC9B0003E0358 /* cardio-spikeTests */,
 				4C8EC738203CC9B0003E0358 /* cardio-spikeUITests */,
 				4C8EC717203CC9B0003E0358 /* Products */,
+				3D6C21053555D45575A46A4D /* Pods */,
+				8E0C6B70087A5EDDB5D7CE88 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +134,7 @@
 				4C8EC720203CC9B0003E0358 /* Assets.xcassets */,
 				4C8EC722203CC9B0003E0358 /* LaunchScreen.storyboard */,
 				4C8EC725203CC9B0003E0358 /* Info.plist */,
+				4C8EC747203CCC05003E0358 /* SampleApp-Swift-Bridging-Header.h */,
 			);
 			path = "cardio-spike";
 			sourceTree = "<group>";
@@ -125,6 +157,16 @@
 			path = "cardio-spikeUITests";
 			sourceTree = "<group>";
 		};
+		8E0C6B70087A5EDDB5D7CE88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B193BB60A8D1B902433D9F2E /* Pods_cardio_spike.framework */,
+				720B0C502295DC4CC5C3C756 /* Pods_cardio_spikeTests.framework */,
+				58327D08826C6E7A90900A60 /* Pods_cardio_spikeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C8EC73E203CC9B0003E0358 /* Build configuration list for PBXNativeTarget "cardio-spike" */;
 			buildPhases = (
+				84CB57909B74E7257A447FFA /* [CP] Check Pods Manifest.lock */,
 				4C8EC712203CC9B0003E0358 /* Sources */,
 				4C8EC713203CC9B0003E0358 /* Frameworks */,
 				4C8EC714203CC9B0003E0358 /* Resources */,
+				D494460630346AD6B1FFA88D /* [CP] Embed Pods Frameworks */,
+				C7FD3795AAF1A88688A32B62 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C8EC741203CC9B0003E0358 /* Build configuration list for PBXNativeTarget "cardio-spikeTests" */;
 			buildPhases = (
+				B510C71628CE5A0C02CB0DC2 /* [CP] Check Pods Manifest.lock */,
 				4C8EC726203CC9B0003E0358 /* Sources */,
 				4C8EC727203CC9B0003E0358 /* Frameworks */,
 				4C8EC728203CC9B0003E0358 /* Resources */,
+				FEDCDC2AAD4E69E50D84C0B5 /* [CP] Embed Pods Frameworks */,
+				F3A141E0F3DA5FC70A761FED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +215,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C8EC744203CC9B0003E0358 /* Build configuration list for PBXNativeTarget "cardio-spikeUITests" */;
 			buildPhases = (
+				3A79306814568901862492E3 /* [CP] Check Pods Manifest.lock */,
 				4C8EC731203CC9B0003E0358 /* Sources */,
 				4C8EC732203CC9B0003E0358 /* Frameworks */,
 				4C8EC733203CC9B0003E0358 /* Resources */,
+				24E860B65145CEC56C59FB12 /* [CP] Embed Pods Frameworks */,
+				F15C6EEA420CDE9F6BAC7008 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +304,153 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24E860B65145CEC56C59FB12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cardio-spikeUITests/Pods-cardio-spikeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A79306814568901862492E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cardio-spikeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84CB57909B74E7257A447FFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cardio-spike-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B510C71628CE5A0C02CB0DC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cardio-spikeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7FD3795AAF1A88688A32B62 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cardio-spike/Pods-cardio-spike-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D494460630346AD6B1FFA88D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cardio-spike/Pods-cardio-spike-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F15C6EEA420CDE9F6BAC7008 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cardio-spikeUITests/Pods-cardio-spikeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3A141E0F3DA5FC70A761FED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cardio-spikeTests/Pods-cardio-spikeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEDCDC2AAD4E69E50D84C0B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cardio-spikeTests/Pods-cardio-spikeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4C8EC712203CC9B0003E0358 /* Sources */ = {
@@ -424,6 +622,7 @@
 		};
 		4C8EC73F203CC9B0003E0358 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D4B99FA25F9B27F545F2310 /* Pods-cardio-spike.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -432,6 +631,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.michaeljamespatterson.cardio-spike";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "cardio-spike/SampleApp-Swift-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -439,6 +639,7 @@
 		};
 		4C8EC740203CC9B0003E0358 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE437A70D482CC7566849031 /* Pods-cardio-spike.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +655,7 @@
 		};
 		4C8EC742203CC9B0003E0358 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F96AFCB2C1C72454A62CE74 /* Pods-cardio-spikeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +673,7 @@
 		};
 		4C8EC743203CC9B0003E0358 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 671471CFA3CF67228BE6E512 /* Pods-cardio-spikeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +691,7 @@
 		};
 		4C8EC745203CC9B0003E0358 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD5C5990DA42E79189CCC281 /* Pods-cardio-spikeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +708,7 @@
 		};
 		4C8EC746203CC9B0003E0358 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BFBC34305CB9629D13FB507 /* Pods-cardio-spikeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
